@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 const App = () => {
-  return <div>Hello</div>;
+  return <div>hello</div>;
 };
 
 export default App;
