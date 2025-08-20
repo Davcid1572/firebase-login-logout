@@ -1,4 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+
 :root {
+  --theme: #2970ff;
+  --black: #000000;
+  --white: #ffffff;
+  --shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.5);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f0f0f0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  font-family: "Outfit", sans-serif;
 }
