@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 import Input from "../Input";
+import Button from "../Button";
 
 const index = () => {
   const [state, setState] = useState("");
@@ -10,8 +11,7 @@ const index = () => {
   return (
     <div className="Signup-wrapper">
       <h2>
-        Sign Up <span style={{ color: "var(--theme)" }}>ChiFinance</span> Using
-        Email
+        Sign Up <span style={{ color: "var(--theme)" }}>ChiFinance</span>
       </h2>
       <form action="">
         <Input
@@ -42,6 +42,9 @@ const index = () => {
           setState={setConfirmPassword}
           type="password"
         />
+        <Button text="Sign Up Using Email And Password" />
+        <p style={{ textAlign: "center", marginTop: "0.5rem" }}>Or</p>
+        <Button text="Sign Up Using Google" blue={true} />
       </form>
     </div>
   );

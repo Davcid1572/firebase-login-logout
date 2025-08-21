@@ -1,6 +1,6 @@
 .input-label {
   margin-bottom: 0.25rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-transform: capitalize;
 }
 
@@ -9,8 +9,8 @@
   border-bottom-width: 1px;
   width: 100%;
   box-sizing: border-box;
-  font-size: 0.9rem;
-  padding: 0.5rem 0 0;
+  font-size: 1rem;
+  padding: 0.8rem 0 0;
 }
 
 .input-field:focus {
