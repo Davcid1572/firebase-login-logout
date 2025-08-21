@@ -16,31 +16,31 @@ const index = () => {
       <form action="">
         <Input
           label="Full Name"
-          placeholder="Enter your full name"
+          placeholder="John Doe"
           state={state}
           setState={setState}
           type="text"
         />
         <Input
-          label="Full Name"
-          placeholder="Enter your full name"
-          state={state}
-          setState={setState}
-          type="text"
+          label="Email"
+          placeholder="John@example.com"
+          state={email}
+          setState={setEmail}
+          type="email"
         />
         <Input
-          label="Full Name"
-          placeholder="Enter your full name"
-          state={state}
-          setState={setState}
-          type="text"
+          label="Password"
+          placeholder="123password"
+          state={password}
+          setState={setPassword}
+          type="password"
         />
         <Input
-          label="Full Name"
-          placeholder="Enter your full name"
-          state={state}
-          setState={setState}
-          type="text"
+          label="Confirm Password"
+          placeholder="123password"
+          state={confirmPassword}
+          setState={setConfirmPassword}
+          type="password"
         />
       </form>
     </div>
