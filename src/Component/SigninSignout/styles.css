@@ -1,0 +1,8 @@
+.Signup-wrapper {
+  width: 70%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+  padding: 0.5rem;
+}
