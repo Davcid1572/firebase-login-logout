@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
 import Input from "../Input";
 
 const index = () => {
+  const [state, setState] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
   return (
     <div className="Signup-wrapper">
       <h2>
@@ -10,7 +14,34 @@ const index = () => {
         Email
       </h2>
       <form action="">
-        <Input />
+        <Input
+          label="Full Name"
+          placeholder="Enter your full name"
+          state={state}
+          setState={setState}
+          type="text"
+        />
+        <Input
+          label="Full Name"
+          placeholder="Enter your full name"
+          state={state}
+          setState={setState}
+          type="text"
+        />
+        <Input
+          label="Full Name"
+          placeholder="Enter your full name"
+          state={state}
+          setState={setState}
+          type="text"
+        />
+        <Input
+          label="Full Name"
+          placeholder="Enter your full name"
+          state={state}
+          setState={setState}
+          type="text"
+        />
       </form>
     </div>
   );
