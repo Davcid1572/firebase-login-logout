@@ -7,6 +7,7 @@
 .input-field {
   border-width: 0;
   border-bottom-width: 1px;
+  border-bottom-color: var(--theme);
   width: 100%;
   box-sizing: border-box;
   font-size: 1rem;
