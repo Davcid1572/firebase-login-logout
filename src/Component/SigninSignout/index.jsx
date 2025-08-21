@@ -4,10 +4,15 @@ import Input from "../Input";
 import Button from "../Button";
 
 const index = () => {
-  const [state, setState] = useState("");
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
+
+  function signupFunction() {
+    console.log("name", name);
+  }
+
   return (
     <div className="Signup-wrapper">
       <h2>
@@ -17,8 +22,8 @@ const index = () => {
         <Input
           label="Full Name"
           placeholder="John Doe"
-          state={state}
-          setState={setState}
+          state={name}
+          setState={setName}
           type="text"
         />
         <Input
@@ -42,7 +47,10 @@ const index = () => {
           setState={setConfirmPassword}
           type="password"
         />
-        <Button text="Sign Up Using Email And Password" />
+        <Button
+          text="Sign Up Using Email And Password"
+          onClick={signupFunction}
+        />
         <p style={{ textAlign: "center", marginTop: "0.5rem" }}>Or</p>
         <Button text="Sign Up Using Google" blue={true} />
       </form>

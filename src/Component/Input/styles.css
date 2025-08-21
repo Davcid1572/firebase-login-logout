@@ -1,6 +1,6 @@
 .input-label {
   margin-bottom: 0.25rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-transform: capitalize;
 }
 
@@ -10,7 +10,7 @@
   border-bottom-color: var(--theme);
   width: 100%;
   box-sizing: border-box;
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 0.8rem 0 0;
 }
 
